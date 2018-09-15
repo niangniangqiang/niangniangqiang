@@ -1,0 +1,87 @@
+body, ul, dl, dd, p, h1, h2, h3, h4, h5, h6, form, input {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 16px 'Microsoft Yahei';
+	background-color: #f8f8f8;
+	
+}
+li {
+	list-style: none;
+}
+img {
+	border: 0 none;
+	vertical-align: middle;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	
+}
+input {
+	border: 0 none;
+	outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+em, i {
+	font-style: normal;
+}
+
+.db {
+	display: inline-block;
+}
+.f12 {
+	font-size: 12px;
+}
+.f14 {
+	font-size: 14px;
+}
+.f16 {
+	font-size: 16px;
+}
+.f18 {
+	font-size: 18px;
+}
+.f20 {
+	font-size: 20px;
+}
+.tc {
+	text-align: center;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+	font-family: 'iconfont';
+	font-size: 24px;
+}
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}

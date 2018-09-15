@@ -1,0 +1,422 @@
+导航栏开始*/
+.nav {
+	height: 96px;
+	padding: 0 40px;
+}
+.nav .logo {
+	height: 96px;
+	line-height: 96px;
+}
+.nav .nav-right li {
+	line-height: 96px;
+	float: left;
+	
+}
+.nav .nav-right a {
+	color: #a05c4f;
+}
+.nav .nav-right a:hover {
+	color: orange;
+}
+.nav-right span {
+	padding: 0 16px;
+	color: #a05c4f;
+}
+/*导航栏结束*/
+/*kv开始*/
+.header-kv {
+	background: url('../images/bg_01.jpg') top center no-repeat;
+	height: 766px;
+	width: 100%;
+	}
+/*kv结束*/
+/*新闻资讯开始*/
+.header-news {
+	height: 300px;
+	background: #f8f8f8;
+}
+
+.rolling {
+	width: 525px;
+	height: 300px;
+}
+.rolling .adPic {
+	width: 525px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+.adPic ul {
+	width: 1000%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.adPic li {
+	float: left;
+}
+.rolling .adBtn {
+	position: absolute;
+	right: -200px;
+	bottom: 10px;
+	height: 14px;
+	width: 300px;	
+}
+.adBtn span {
+	display: inline-block;
+	margin-left: 4px;
+	width: 14px;
+	height: 14px;
+	background-color: #ccc;
+	border-radius: 7px;
+}
+.adBtn .current {
+	background-color: pink;
+}
+.header-news-list {
+	width: 448px;
+	height: 300px;
+}
+.header-news-list .tab {
+	height: 52px;
+	border-bottom: 2px solid #ccc;
+}
+.tab li {
+	height: 52px;
+	line-height: 52px;
+	float: left;
+	padding-left: 50px;
+}
+.tab a {
+	font-size: 18px;
+	color: black;
+}
+.tab a:hover {
+	color: pink;
+	border-bottom: 2px solid pink;
+}
+.news-list {
+	padding: 10px 26px;
+}
+.news-list li {
+	height: 48px;
+	line-height: 48px;
+}
+.news-list a {
+	color: black;
+	font-size: 14px;
+}
+.news-list a:hover {
+	color: red;
+}
+.download {
+	height: 300px;
+	position: relative;
+}
+.erweima {
+	position: absolute;
+	top: 26px;
+	left: 16px;
+}
+.erweima img {
+	width: 196px;
+	height: 196px;
+}
+/*新闻资讯结束/
+/*美好之旅开始*/
+.MainArea2 {
+	position: relative;
+	height: 500px;
+	margin-top: 58px;
+}
+.MainArea2 .btn-l {
+	position: absolute;
+	left: 230px;
+	top: 244px;
+}
+.MainArea2 .btn-r {
+	position: absolute;
+	right: 230px;
+	top: 244px;
+}
+.MainArea2 .MainArea2-rolling {
+	text-align: center;
+}
+/*美好之旅结束*/
+/*游戏特色开始*/
+.MainArea3 {
+	height: 564px;
+}
+.MainArea3-rolling {
+	position: relative;
+	width: 1200px;
+	height: 460px;
+	margin-top: 32px;
+	overflow: hidden;
+}
+.MainArea3-rolling ul {
+	width: 1000%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.MainArea3-rolling li {
+	float: left;
+}
+.MainArea3-btn {
+	position: absolute;
+	height: 14px;
+	left: 45%;
+	bottom: 18px;
+}
+.MainArea3-btn span {
+	display: inline-block;
+	margin-right: 8px;
+	width: 14px;
+	height: 14px;
+	background-color: #ccc;
+	border-radius: 7px;
+}
+.MainArea3-btn .current {
+	background-color: #e47e80;
+}
+/*游戏特色结束*/
+/*游戏攻略开始*/
+.MainArea4 {
+	height: 512px;
+}
+.gl-left {
+	width: 384px;
+	height: 426px;
+	margin-top: 36px;
+	padding-left: 14px;
+	background-color: #fff;
+}
+.gl-left h3 {
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #ccc;
+}
+.gl-left img {
+	padding: 20px 0;
+}
+.gl-left li {
+	height: 34px;
+	line-height: 34px;
+}
+.gl-left li a {
+	color: black;
+	font-size: 14px;
+}
+.gl-left li a:hover {
+	color: red;
+}
+.gl-center {
+	width: 384px;
+	height: 426px;
+	margin-top: 36px;
+	padding-left: 14px;
+	background-color: #fff;
+}
+.gl-center h3 {
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #ccc;
+}
+.gl-right {
+	width: 370px;
+	height: 426px;
+	margin-top: 36px;
+	padding: 0 14px;
+	background-color: #fff;
+}
+.gl-right h3 {
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #ccc;
+}
+.gl-right li {
+	width: 90px;
+	height: 96px;
+	margin-right: 2px;
+	margin-bottom: 12px;
+	float: left;
+	background-color: #f8f8f8;
+}
+.gl-right img {
+	width: 52px;
+	height: 54px;
+	margin: 6px 16px;
+}
+.gl-right p {
+	text-align: center;
+	font-size: 12px;
+	color: black;
+}
+
+/*游戏攻略结束*/
+/*同人站开始*/
+.MainArea5 {
+	height: 550px;
+}
+.trzq-list h3 {
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #ccc;
+}
+.trzq-left {
+	width: 384px;
+	height: 422px;
+	margin-top: 36px;
+	padding-left: 14px;
+	background-color: #fff;
+}
+.trzq-left li {
+	float: left;
+	padding-top: 20px;
+	padding-right: 8px;
+}
+.trzq-left img {
+	width: 176px;
+	height: 146px;
+}
+.trzq-center {
+	width: 384px;
+	height: 422px;
+	margin-top: 36px;
+	padding-left: 14px;
+	background-color: #fff;
+}
+.trzq-center img {
+	width: 176px;
+	height: 146px;
+	padding-top: 20px;
+	padding-right: 8px;
+}
+.trzq-center li {
+	height: 38px;
+	line-height: 38px;
+}
+.trzq-center li a {
+	color: black;
+	font-size: 14px;
+}
+.trzq-center li a:hover {
+	color: red;
+}
+.trzq-center span {
+	float: right;
+	padding-right: 18px;
+}
+.trzq-right {
+	width: 384px;
+	height: 422px;
+	margin-top: 36px;
+	padding-left: 14px;
+	background-color: #fff;
+}
+.trzq-right img {
+	padding-top: 20px;
+	padding-bottom: 6px;
+	padding-right: 8px;
+}
+.trzq-right li {
+	height: 38px;
+	line-height: 38px;
+}
+.trzq-right li a {
+	color: black;
+	font-size: 14px;
+}
+.trzq-right li a:hover {
+	color: red;
+}
+.trzq-right span {
+	float: right;
+	padding-right: 18px;
+}
+/*同人站结束*/
+/*合作媒体开始*/
+.hzmt {
+	height: 200px;
+	padding-top: 40px;
+}
+.hzmt-title h2 {
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 36px;
+	color: #50505a;
+}
+.hzmt-list ul {
+	padding-left: 194px;
+}
+.hzmt-list li {
+	float: left;
+	height: 50px;
+	padding-right: 43px;
+}
+/*合作媒体结束*/
+/*底部开始*/
+.gfooter {
+	height: 176px;
+	background-color: #8c515d;
+}
+.footer-title {
+	height: 90px;
+	line-height: 90px;
+	padding-left: 32px;
+}
+.footer-list ul {
+	padding-top: 20px;
+}
+.footer-list li {
+	font-size: 12px;
+	color: #fff;
+	padding-bottom: 6px;
+}
+/*底部结束*/
+/*右边导航栏开始*/
+.siderbar {
+    background: url("../images/cedaohang.png") no-repeat;
+    width: 161px;
+    height: 411px;
+    position: fixed;
+    top: 20%;
+    right: 0;
+    z-index: 999;
+}
+.siderbar ul {
+    width: 90px;
+    height: 315px;
+    margin: 10px auto;
+    position: relative;
+    top: 40px;
+}
+.sider-list li {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    border-bottom: 1px solid #F1A8AD;
+}
+.sider-list li a {
+    display: block;
+    width: 100%;
+    margin: 4px 0;
+    color: #FDEFF0;
+}
+.sider-list i {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background: #FA9FA8;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    margin: 15px auto;
+    border-radius: 20px;
+    color: #9B5566;
+}
+/*右边导航栏结束*/
